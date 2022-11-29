@@ -4,3 +4,6 @@
 [submodule "GNPS_FBMNGroupsComparison"]
 	path = GNPS_FBMNGroupsComparison
 	url = https://github.com/mwang87/GNPS_FBMNGroupsComparison.git
+[submodule "GNPS_MASST"]
+	path = GNPS_MASST
+	url = https://github.com/mwang87/GNPS_MASST.git
