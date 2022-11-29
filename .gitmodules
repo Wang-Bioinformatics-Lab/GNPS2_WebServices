@@ -7,3 +7,6 @@
 [submodule "GNPS_MASST"]
 	path = GNPS_MASST
 	url = https://github.com/mwang87/GNPS_MASST.git
+[submodule "GNPS_TableViewer"]
+	path = GNPS_TableViewer
+	url = https://github.com/mwang87/GNPS_TableViewer.git
