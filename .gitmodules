@@ -1,0 +1,3 @@
+[submodule "GNPS_URLWorkflowFormatter"]
+	path = GNPS_URLWorkflowFormatter
+	url = https://github.com/mwang87/GNPS_URLWorkflowFormatter
