@@ -1,3 +1,6 @@
 [submodule "GNPS_URLWorkflowFormatter"]
 	path = GNPS_URLWorkflowFormatter
 	url = https://github.com/mwang87/GNPS_URLWorkflowFormatter
+[submodule "GNPS_FBMNGroupsComparison"]
+	path = GNPS_FBMNGroupsComparison
+	url = https://github.com/mwang87/GNPS_FBMNGroupsComparison.git
