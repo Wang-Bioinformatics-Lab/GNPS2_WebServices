@@ -10,3 +10,9 @@
 [submodule "GNPS_TableViewer"]
 	path = GNPS_TableViewer
 	url = https://github.com/mwang87/GNPS_TableViewer.git
+[submodule "GNPS_ExternalStructureProxy"]
+	path = GNPS_ExternalStructureProxy
+	url = https://github.com/mwang87/GNPS_ExternalStructureProxy.git
+[submodule "ChemicalStructureWebService"]
+	path = ChemicalStructureWebService
+	url = https://github.com/mwang87/ChemicalStructureWebService.git
