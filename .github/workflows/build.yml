@@ -22,7 +22,7 @@ jobs:
         docker system prune -f
     - name: Docker Build Chemistry Web Service
       run: |
-        cd ChemistryStructureWebService && docker build .
+        cd ChemicalStructureWebService && docker build .
     - name: Docker Build Resolver
       run: |
         cd MetabolomicsSpectrumResolver && docker build .
