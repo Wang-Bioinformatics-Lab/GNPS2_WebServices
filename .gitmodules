@@ -16,3 +16,6 @@
 [submodule "ChemicalStructureWebService"]
 	path = ChemicalStructureWebService
 	url = https://github.com/mwang87/ChemicalStructureWebService.git
+[submodule "MetabolomicsSpectrumResolver"]
+	path = MetabolomicsSpectrumResolver
+	url = https://github.com/mwang87/MetabolomicsSpectrumResolver.git
