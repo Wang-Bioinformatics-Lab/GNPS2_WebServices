@@ -21,3 +21,6 @@ jobs:
     - name: Docker Build Chemistry Web Service
       run: |
         cd ChemistryStructureWebService && docker build .
+    - name: Docker Build Resolver
+      run: |
+        cd MetabolomicsSpectrumResolver && docker build .
