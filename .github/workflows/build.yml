@@ -1,0 +1,20 @@
+name: Docker Build All Services
+
+on:
+  push:
+    branches:
+      master
+  pull_request:
+    branches:
+      master
+  schedule:
+      - cron:  '0 0 * * 1'
+
+jobs:
+  build-test:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Chemistry Web Service
+      run: |
+        cd ChemistryStructureWebService && docker build .
