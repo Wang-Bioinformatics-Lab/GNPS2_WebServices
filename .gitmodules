@@ -25,3 +25,6 @@
 [submodule "Flask_Website_Basic_Template"]
 	path = Flask_Website_Basic_Template
 	url = https://github.com/Wang-Bioinformatics-Lab/Flask_Website_Basic_Template.git
+[submodule "Template_Streamlit_App"]
+	path = Template_Streamlit_App
+	url = https://github.com/Wang-Bioinformatics-Lab/Template_Streamlit_App.git
