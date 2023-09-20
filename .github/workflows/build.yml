@@ -23,7 +23,6 @@ jobs:
     - name: Docker Build
       run: |
         cd ChemicalStructureWebService && docker build .
-  
   build-Resolver:
     runs-on: self-hosted
     steps:
@@ -36,7 +35,6 @@ jobs:
   - name: Docker Build
     run: |
       cd MetabolomicsSpectrumResolver && docker build .
-
   build-ExternalProxy:
     runs-on: self-hosted
     steps:
@@ -49,7 +47,6 @@ jobs:
   - name: Docker Build
     run: |
       cd GNPS_ExternalStructureProxy && docker build .
-
   build-FBMNComparison:
     runs-on: self-hosted
     steps:
@@ -62,7 +59,6 @@ jobs:
   - name: Docker Build
     run: |
       cd GNPS_FBMNGroupsComparison && docker build .
-
   build-MASST:
     runs-on: self-hosted
     steps:
@@ -75,7 +71,6 @@ jobs:
   - name: Docker Build
     run: |
       cd GNPS_MASST && docker build .
-
   build-URLFormatter:
     runs-on: self-hosted
     steps:
