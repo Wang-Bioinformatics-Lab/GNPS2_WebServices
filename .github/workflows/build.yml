@@ -32,9 +32,9 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-  - name: Docker Build
-    run: |
-      cd MetabolomicsSpectrumResolver && docker build .
+    - name: Docker Build
+      run: |
+        cd MetabolomicsSpectrumResolver && docker build .
   build-ExternalProxy:
     runs-on: self-hosted
     steps:
@@ -44,9 +44,9 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-  - name: Docker Build
-    run: |
-      cd GNPS_ExternalStructureProxy && docker build .
+    - name: Docker Build
+      run: |
+        cd GNPS_ExternalStructureProxy && docker build .
   build-FBMNComparison:
     runs-on: self-hosted
     steps:
@@ -56,9 +56,9 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-  - name: Docker Build
-    run: |
-      cd GNPS_FBMNGroupsComparison && docker build .
+    - name: Docker Build
+      run: |
+        cd GNPS_FBMNGroupsComparison && docker build .
   build-MASST:
     runs-on: self-hosted
     steps:
@@ -68,9 +68,9 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-  - name: Docker Build
-    run: |
-      cd GNPS_MASST && docker build .
+    - name: Docker Build
+      run: |
+        cd GNPS_MASST && docker build .
   build-URLFormatter:
     runs-on: self-hosted
     steps:
@@ -80,6 +80,6 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-  - name: Docker Build
-    run: |
-      cd GNPS_URLWorkflowFormatter && docker build .
+    - name: Docker Build
+      run: |
+        cd GNPS_URLWorkflowFormatter && docker build .
