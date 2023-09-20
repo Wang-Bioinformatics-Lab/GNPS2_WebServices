@@ -11,7 +11,7 @@ on:
       - cron:  '0 0 * * 1'
 
 jobs:
-  build-test:
+  build-Chemistry-Web-Service:
     runs-on: self-hosted
     steps:
     - uses: actions/checkout@v2
@@ -20,9 +20,71 @@ jobs:
     - name: Docker Cleanup
       run: |
         docker system prune -f
-    - name: Docker Build Chemistry Web Service
+    - name: Docker Build
       run: |
         cd ChemicalStructureWebService && docker build .
-    - name: Docker Build Resolver
+  
+  build-Resolver:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
       run: |
-        cd MetabolomicsSpectrumResolver && docker build .
+        docker system prune -f
+  - name: Docker Build
+    run: |
+      cd MetabolomicsSpectrumResolver && docker build .
+
+  build-ExternalProxy:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
+      run: |
+        docker system prune -f
+  - name: Docker Build
+    run: |
+      cd GNPS_ExternalStructureProxy && docker build .
+
+  build-FBMNComparison:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
+      run: |
+        docker system prune -f
+  - name: Docker Build
+    run: |
+      cd GNPS_FBMNGroupsComparison && docker build .
+
+  build-MASST:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
+      run: |
+        docker system prune -f
+  - name: Docker Build
+    run: |
+      cd GNPS_MASST && docker build .
+
+  build-URLFormatter:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
+      run: |
+        docker system prune -f
+  - name: Docker Build
+    run: |
+      cd GNPS_URLWorkflowFormatter && docker build .
