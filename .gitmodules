@@ -19,3 +19,6 @@
 [submodule "GNPS_LCMSDashboard"]
 	path = GNPS_LCMSDashboard
 	url = https://github.com/mwang87/GNPS_LCMSDashboard.git
+[submodule "NP-Classifier"]
+	path = NP-Classifier
+	url = https://github.com/mwang87/NP-Classifier.git
