@@ -28,3 +28,6 @@
 [submodule "Template_Streamlit_App"]
 	path = Template_Streamlit_App
 	url = https://github.com/Wang-Bioinformatics-Lab/Template_Streamlit_App.git
+[submodule "GNPS_quickstart"]
+	path = GNPS_quickstart
+	url = https://github.com/mwang87/GNPS_quickstart.git
