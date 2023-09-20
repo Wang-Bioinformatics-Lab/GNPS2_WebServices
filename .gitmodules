@@ -16,3 +16,6 @@
 [submodule "MetabolomicsSpectrumResolver"]
 	path = MetabolomicsSpectrumResolver
 	url = https://github.com/mwang87/MetabolomicsSpectrumResolver.git
+[submodule "GNPS_LCMSDashboard"]
+	path = GNPS_LCMSDashboard
+	url = https://github.com/mwang87/GNPS_LCMSDashboard.git
