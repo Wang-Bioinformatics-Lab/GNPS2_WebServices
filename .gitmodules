@@ -22,3 +22,6 @@
 [submodule "NP-Classifier"]
 	path = NP-Classifier
 	url = https://github.com/mwang87/NP-Classifier.git
+[submodule "Flask_Website_Basic_Template"]
+	path = Flask_Website_Basic_Template
+	url = https://github.com/Wang-Bioinformatics-Lab/Flask_Website_Basic_Template.git
