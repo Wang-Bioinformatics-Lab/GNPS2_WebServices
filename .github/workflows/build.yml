@@ -151,3 +151,18 @@ jobs:
         docker build -f Dockerfile.beat .
         docker build -f Dockerfile.conversion .
         docker build -f Dockerfile.website .
+
+  build-cytoscape:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Docker Cleanup
+      run: |
+        docker system prune -f
+    - name: Docker Build
+      run: |
+        cd GNPS_CytoscapeFormatting/code
+        docker build -f Dockerfile .
+    

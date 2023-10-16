@@ -31,3 +31,6 @@
 [submodule "GNPS_quickstart"]
 	path = GNPS_quickstart
 	url = https://github.com/mwang87/GNPS_quickstart.git
+[submodule "GNPS_CytoscapeFormatting"]
+	path = GNPS_CytoscapeFormatting
+	url = https://github.com/mwang87/GNPS_CytoscapeFormatting.git
